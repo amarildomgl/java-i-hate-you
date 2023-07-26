@@ -1,0 +1,50 @@
+
+# Arquivos de compilação e saída
+*.class
+*.war
+*.ear
+*.jar
+*.zip
+
+# Arquivos e diretórios gerados pelo IDE (ex: Eclipse, IntelliJ, NetBeans)
+bin/
+target/
+.idea/
+.eclipse/
+*.iml
+
+# Logs
+*.log
+log/
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+
+# Arquivos de configuração local (ex: para banco de dados ou chaves de API)
+application.properties
+*.properties
+*.xml
+
+# Arquivos de cache
+*.cache
+
+# Diretórios de dependências gerados por build tools (ex: Maven, Gradle)
+lib/
+libs/
+build/
+
+# Diretórios e arquivos de dependências específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outros arquivos e diretórios gerados ou específicos do sistema
+*.log.*
+*.log.0
+hs_err_pid*.log
+hs_err_pid*.mdmp
+*.bak
+*.swp
+*.~lock.*
